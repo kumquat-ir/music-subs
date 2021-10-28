@@ -9,10 +9,16 @@
     "TheLastKumquat"
   ],
 
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "icon": "assets/musicsubs/icon.png",
 
-  "environment": "*",
+  "contact": {
+    "homepage": "https://github.com/kumquat-ir/music-subs",
+    "sources": "https://github.com/kumquat-ir/music-subs.git",
+    "issues": "https://github.com/kumquat-ir/music-subs/issues"
+  },
+
+  "environment": "client",
   "entrypoints": {
     "client": [
       "com.github.kumquatir.musicsubs.MusicSubsMod"
@@ -24,7 +30,7 @@
 
   "depends": {
     "fabricloader": ">=0.11.3",
-    "fabric": "*",
+    "fabric-resource-loader-v0": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
   }
