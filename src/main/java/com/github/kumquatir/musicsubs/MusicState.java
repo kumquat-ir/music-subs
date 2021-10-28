@@ -42,6 +42,5 @@ public class MusicState {
 
     public static void addNameMapEntry(String location, String name) {
         nameMap.put(location, name);
-        System.out.println("added name map entry " + location + " / " + name);
     }
 }
