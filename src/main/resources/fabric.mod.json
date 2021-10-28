@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "musicsubs",
+  "version": "${version}",
+
+  "name": "Music Subtitles",
+  "description": "Shows the currently playing music in the subtitles",
+  "authors": [
+    "TheLastKumquat"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/musicsubs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.kumquatir.musicsubs.MusicSubsMod"
+    ]
+  },
+  "mixins": [
+    "musicsubs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
